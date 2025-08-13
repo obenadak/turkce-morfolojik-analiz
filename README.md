@@ -9,7 +9,7 @@ Bu proje, Türkçe bir cümlenin derinlemesine morfolojik analizini yapabilen bi
 Proje, modelin eğitim kodlarını, değerlendirme metriklerini ve interaktif bir web demosunu içerir.
 
 > ### **[İnteraktif Demo](https://huggingface.co/spaces/obenadak/turkce-morfolojik-analiz)**
-![Gradio Arayüzü Demosu](screenshots\image.png)
+![Gradio Arayüzü Demosu](screenshots/image.png)
 
 ## Projenin Amacı
 
