@@ -34,9 +34,9 @@ def morfolojik_analiz_et(cumle):
 title = "Türkçe Morfolojik Analiz Modeli"
 description = textwrap.dedent("""
     Bu arayüz, **[turkce-morfolojik-analiz-mt0-small](https://huggingface.co/obenadak/turkce-morfolojik-analiz-mt0-small)** modelini kullanarak bir Türkçe cümlenin morfolojik analizini yapar. 
-    Aşağıdaki kutuya bir cümle yazın ve "Analiz Et" düğmesine tıklayın. Model, cümlenizdeki her kelimenin kökünü, türünü ve eklerini ayrıştıracaktır.
+    Aşağıdaki kutuya bir cümle yazın ve "Submit" butonuna tıklayın. Model, cümlenizdeki her kelimenin kökünü, türünü ve eklerini ayrıştıracaktır.
 """)
-article = "Oben Adak tarafından geliştirilmiştir. [Model Sayfası](https://huggingface.co/obenadak/turkce-morfolojik-analiz-mt0-small) | [GitHub Reposu](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ)" # GitHub linkini güncelleyin
+article = "[Model Sayfası](https://huggingface.co/obenadak/turkce-morfolojik-analiz-mt0-small) | [GitHub Reposu](https://github.com/obenadak/turkce-morfolojik-analiz)"
 
 demo = gr.Interface(
     fn=morfolojik_analiz_et,
