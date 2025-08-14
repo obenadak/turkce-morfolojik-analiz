@@ -27,13 +27,18 @@ Model, kendisine verilen bir Türkçe cümledeki her bir kelimeyi alarak aşağ�
 
 ### Örnek Çıktı
 
-**Girdi:**  
+**Girdi:**
+```
 Kitapları masanın üstüne koydum.
-**Çıktı:**  
+```
+
+**Çıktı:**
+```
 Kitapları -> kitap(isim) + -ler(çoğul) + -i(belirtme) |
-masanın -> masa(isim) + -in(tamlayan) |
-üstüne -> üst(isim) + -e(yönelme) + (3.kişi iyelik) |
-koydum -> koy(fiil) + -di(geçmiş z.) + (1.kişi)
+masanın   -> masa(isim) + -in(tamlayan) |
+üstüne    -> üst(isim) + -e(yönelme) + (3.kişi iyelik) |
+koydum    -> koy(fiil) + -di(geçmiş z.) + (1.kişi)
+```
 
 ---
 
